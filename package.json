@@ -1,0 +1,30 @@
+{
+  "name": "flipacoin",
+  "version": "1.0.0",
+  "description": "Istant node.js coin toss. Just flip a coin.",
+  "main": "index.js",
+  "preferGlobal" : true,
+  "bin": {
+    "flip": "./bin/flip.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roccomuso/flip-a-coin.git"
+  },
+  "keywords": [
+    "flip",
+    "coin",
+    "random",
+    "head",
+    "tail"
+  ],
+  "author": "Rocco Musolino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roccomuso/flip-a-coin/issues"
+  },
+  "homepage": "https://github.com/roccomuso/flip-a-coin#readme"
+}
