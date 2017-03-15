@@ -13,13 +13,16 @@ Instant Node.js coin toss. Heads or tails? Just flip a coin.
 
 ## Embedded
 
-    var flip = require('flipacoin')
+```javascript
+var flip = require('flipacoin')
 
-    flip()
-    // 'head' or 'tail'
-    flip('num')
-    // 1 or 0
-    flip('bool')
-    // true or false
+flip()
+// 'head' or 'tail'
 
+flip('num')
+// 1 or 0
+
+flip('bool')
+// true or false
+```
 
